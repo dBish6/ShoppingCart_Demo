@@ -1,0 +1,49 @@
+.checkout {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.checkout .checkout_items h3 {
+  margin: 10px 0px 20px 20px;
+}
+
+.checkout_items {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 20px;
+}
+
+.checkout_product {
+  display: flex;
+  width: 80%;
+}
+
+.checkout_product img {
+  max-height: 200px;
+}
+
+.checkout_product .checkout_product_info {
+  margin-left: 20px;
+}
+
+.checkout_items .checkout_product .checkout_product_info button {
+  background-color: slateblue;
+}
+
+.subtotal {
+  margin-top: 10px;
+  margin-right: 3rem;
+}
+
+.subtotal_area {
+  padding: 10px;
+  border: 1px solid gray;
+  background-color: rgb(221, 221, 222);
+}
+
+.subtotal .subtotal_area button {
+  background-color: slateblue;
+  border: 1px solid gray;
+}
